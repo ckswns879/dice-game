@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>JS PWA</title>
+  <!--웹폰트-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <!--스타일 시트-->
+  <link rel="stylesheet" href="./styles/indexA.css">
+  <!--내부 자바스크립트-->
+  <!--여기도 가능
+  <script>
+    //alert("Hello World!");
+    //console.log("Hello World!");
+  </script> 
+  -->
+  <!--외부 자바스크립트-->
+  <!--<script src="./scripts/index.js"></script>-->
+  <script src="./indexA.js"></script>
+</head>
+<body>
+  <div id="root">
+    <header>
+      <h1>자바스크립트 연습</h1>
+    </header>
+    <!-- 여기도 가능
+    <script>
+      alert("Hello World!");
+      //console.log("Hello World!");
+    </script>
+    -->
+    <main id="content">
+      <section id="msg">그림</section>
+      <section id="inNum">
+        <form name="form1" id="form1">
+        <fieldset>
+          <legend>번호선택</legend>
+          <input type="radio" name="num" value="1" id="r1"><label for="r1"> 1 </label> <!--radio 디스플레이를지웟지만 <label for="r1"> 1 </label>때문에 눌러짐-->
+          <input type="radio" name="num" value="2" id="r2"><label for="r2"> 2 </label>
+          <input type="radio" name="num" value="3" id="r3"><label for="r3"> 3 </label>
+          <input type="radio" name="num" value="4" id="r4"><label for="r4"> 4 </label>
+          <input type="radio" name="num" value="5" id="r5"><label for="r5"> 5 </label>
+          <input type="radio" name="num" value="6" id="r6"><label for="r6"> 6 </label>
+        </fieldset>
+        </form>
+      </section>
+      <section id="bt">
+        <button id="bt1" onclick="showDice()">주사위</button>
+        <button id="bt2" onclick="showOk()">확인</button>
+      </section>
+    </main>
+  </div>
+  <!--
+  //여기도 가능
+  <script>
+    //alert("Hello World!");
+    //console.log("Hello World!");
+    //console.log(document.getElementById("bt"))
+  </script>
+  -->
+</body>
+</html>

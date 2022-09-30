@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ok">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>JS PWA</title>
+
+    <!--내부 자바스크립트
+        위치어디든가능
+    <script>
+   // alert("Hellow World!");
+    //console.log("Hellow World!");
+    </script>-->
+    <!--외부 자바스크립트-->
+    <script src="/01/temp/index.js"></script>
+    <script src="./dom.js"></script>
+</head>
+<body>
+    <div id="root">
+    <header>
+    <h1>주사위게임</h1>
+    </header>
+   
+    <main class="content">
+        <section id="msg">
+            <div class="divMsg"></div>
+        </section>
+        <section id="formSection">
+            <input type="radio" id="d1" name="game" value="1">1
+            <input type="radio" id="d2" name="game" value="2" checked>2
+            <input type="radio" id="d3" name="game" value="3" checked>3
+            <input type="radio" id="d4" name="game" value="4" checked>4
+            <input type="radio" id="d5" name="game" value="5" checked>5
+            <input type="radio" id="d6" name="game" value="6" checked>6
+        </section>
+        
+        <section id="bt">
+                <button class="bt1" onclick="show();">주사위</button>
+               <!-- <button class="bt1"onclick="funPrint(2);"><span>버튼2</span></button> -->
+        </section>
+        <section id="bt2">
+           <!-- <button class="bt2">확인</button> -->
+        </section> 
+    </main>
+</div>
+<!--위치어디든가능
+<script>
+    // alert("Hellow World!");
+     //console.log("Hellow World!");
+     console.log(document.getElementById("bt"))
+
+     </script>-->
+</body>
+</html>
