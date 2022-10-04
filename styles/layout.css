@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+section{
+    background-color: blue;
+    width: 50vw;
+}
+#s1{
+    background-color: chartreuse;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dc{
+    width: 12%;
+    height: 5rem;
+    background-color: darkorchid;
+    margin: 0.1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#s2{
+    background-color:crimson;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
